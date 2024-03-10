@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game-1.css"/>
+    <title>Swara-sound-game</title>
+  </head>
+  <body>
+    <button class="back-button"><a href="/Quiz game/index1.html">Back</a></button>
+    <!-- ##add link## -->
+
+    <div class="container">
+      <h1>सुनो!</h1>
+    <img width="200px" src="eating.jpg" alt="eating">
+    <audio id="Play" src="eating_audio.mp3"></audio>
+    <div class="anguage">
+      <select name="input-language" id="language"></select>
+    </div>
+    <div id="buttons"> </div>
+    <p class="heading">Result :</p>
+      <div class="result"
+        spellcheck="false" placeholder="Text will be shown here" >
+        <p class="interim"></p>
+      </div>
+      <button class="btn record">
+        <div class="icon">
+          <ion-icon name="mic-outline"></ion-icon>
+          <img src="bars.svg" alt="" />
+        </div>
+        <p>speak</p>
+      </button>
+    </div>
+    </div>   
+     <!-- IONICONS -->
+     <script
+     type="module"
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+   ></script>
+   <script
+     nomodule
+   
+ src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+   ></script>
+    <script src="game-1.js"></script>
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
